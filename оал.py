@@ -11,7 +11,7 @@ intents = discord.Intents.default()
 intents.members = True
 intents.message_content = True
 
-bot = commands.Bot(command_prefix='?', description=description, intents=intents)
+bot = commands.Bot(command_prefix='.', description=description, intents=intents)
 
 
 @bot.event
@@ -73,4 +73,6 @@ async def _bot(ctx):
     """Is the bot cool?"""
     await ctx.send('Yes, the bot is cool.')
 
+
+bot.run("MTE2MzA1MTA1OTQ1NjAwNDE0OA.GtdjF2.hoNmvV19K3n4UeLnWyBQm-MhsyvNDixLeLaczo")
 

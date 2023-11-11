@@ -18,7 +18,7 @@ async def on_message(message):
     else:
         await message.channel.send(message.content)
         
-
+bot.run("MTE2MzA1MTA1OTQ1NjAwNDE0OA.GtdjF2.hoNmvV19K3n4UeLnWyBQm-MhsyvNDixLeLaczo")
 
 
 

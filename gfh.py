@@ -2,7 +2,6 @@ import discord
 from discord.ext import commands
 import random
 import os
-
 import requests
 print(os.listdir('images'))
 
