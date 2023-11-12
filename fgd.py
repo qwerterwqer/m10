@@ -8,7 +8,7 @@ import os
 print(os.listdir('images'))
 
 intents = discord.Intents.default()
-intents.message_content = True
+intents.message_content = True+
 
 bot = commands.Bot(command_prefix='$', intents=intents)
 
@@ -41,4 +41,5 @@ async def duck(ctx):
     duck = "произошли от кряквы. Селезни домашних уток весят 3—4 кг, утки — 2—3,5 кг. Средняя годовая яйценоскость до 250 яиц. Породы домашних уток подразделяются на мясные (пекинские, серые украинские, чёрные белогрудые), мясо-яичные (зеркальные, хаки-кемпбелл), яичные (индийские бегуны). Уток разводят во многих странах, в том числе в России."
     await ctx.send(duck)
 
+             
 bot.run("MTE2MzA1MTA1OTQ1NjAwNDE0OA.GwxbaC.WARjQ_iqIMKjYyvK9HvdSFJO6EdGJAXPAVjZ0Q")
